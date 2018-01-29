@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ClickableViewAccessibility">
+        <ignore path="src/com/example/views/AutoScrollView.java" />
+    </issue>
+    <issue id="HandlerLeak">
+        <ignore path="src/com/example/test/DownService.java" />
+        <ignore path="src/com/example/test/MainActivity.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src/com/example/test/DownService.java" />
+        <ignore path="src/com/example/test/MainActivity.java" />
+        <ignore path="src/com/example/utils/Date.java" />
+        <ignore path="src/com/example/utils/DatePath.java" />
+        <ignore path="src/com/example/utils/Login.java" />
+        <ignore path="src/com/example/utils/XmlParse.java" />
+    </issue>
+    <issue id="SetJavaScriptEnabled">
+        <ignore path="src/com/example/test/MainActivity.java" />
+    </issue>
+    <issue id="SimpleDateFormat">
+        <ignore path="src/com/example/utils/FileOperation.java" />
+    </issue>
+</lint>
